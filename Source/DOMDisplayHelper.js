@@ -42,7 +42,7 @@ class DOMDisplayHelper
 		buttonDelete.onclick = () =>
 		{
 			var tarFile = Globals.Instance.tarFile;
-			tarFile.entries.remove(tarFileEntry);
+                        tarFile.entries.splice(tarFile.entries.indexOf(tarFileEntry),1);
 			divTarFileRefresh(); // hack - ui event handler
 		}
 		td.appendChild(buttonDelete);

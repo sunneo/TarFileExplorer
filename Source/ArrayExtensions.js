@@ -7,8 +7,9 @@ function ArrayExtensions()
 }
 
 {
-	Array.prototype.remove = function(elementToRemove)
+/*	Array.prototype.remove = function(elementToRemove)
 	{
 		this.splice(this.indexOf(elementToRemove), 1);
 	}
+*/
 }

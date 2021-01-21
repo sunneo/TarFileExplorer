@@ -90,7 +90,7 @@ function buttonAddFileToTar_Clicked2(fileToAddName, fileToAddAsBytes)
 
 	var tarFileEntryHeader = new TarFileEntryHeader
 	(
-		fileToAddName,
+		directoryToAddFileTo+fileToAddName,
 		headerToClone.fileMode,
 		headerToClone.userIDOfOwner,
 		headerToClone.userIDOfGroup,

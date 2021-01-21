@@ -97,7 +97,7 @@ class TarFileEntry
 
 	remove(event)
 	{
-		alert("Not yet implemented!"); // todo
+		console.log("Not yet implemented!"); // todo
 	};
 
 	toBytes()

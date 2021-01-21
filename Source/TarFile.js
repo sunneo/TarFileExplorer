@@ -111,7 +111,7 @@ class TarFile
 
 	entriesForDirectories()
 	{
-		return this.entries.filter(x => x.header.typeFlag.name == TarFileTypeFlag.Instances().Directory);
+		return this.entries.filter(x => x.header.typeFlag.name == TarFileTypeFlag.Instances().Directory.name);
 	}
 
 	toBytes()
